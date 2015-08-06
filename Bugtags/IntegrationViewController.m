@@ -23,13 +23,6 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
-- (IBAction)onCrashClick:(id)sender
-{
-    NSMutableArray *array = [NSMutableArray arrayWithCapacity:1];
-    NSString *s = nil;
-    [array addObject:s];
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
