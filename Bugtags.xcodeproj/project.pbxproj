@@ -424,8 +424,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB9223091A38C4D6C5541845 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Zhang (6VW228TK9U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Wuxi Haohai Information Technology Co., Ltd. (NG8D5HU9W3)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bugtags",
@@ -435,7 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a7a55c0d-a14c-44a8-a937-5e5912346e27";
+				PROVISIONING_PROFILE = "86439414-de10-405d-9c26-c35f77ad5f89";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,8 +448,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3187516ED7D9B5F278FB434 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Zhang (6VW228TK9U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Wuxi Haohai Information Technology Co., Ltd. (NG8D5HU9W3)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bugtags",
@@ -455,7 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a7a55c0d-a14c-44a8-a937-5e5912346e27";
+				PROVISIONING_PROFILE = "86439414-de10-405d-9c26-c35f77ad5f89";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
