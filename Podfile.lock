@@ -1,10 +1,10 @@
 PODS:
-  - Bugtags (1.1.1)
+  - Bugtags (1.1.2)
 
 DEPENDENCIES:
   - Bugtags
 
 SPEC CHECKSUMS:
-  Bugtags: da6c13e181e4b081aacdd05d774a2a191c7027db
+  Bugtags: 0a6b51a1298d32859b640a8901cdbdf822dac3e0
 
 COCOAPODS: 0.39.0
