@@ -25,6 +25,12 @@
     navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     
     [Bugtags startWithAppKey:@"195e2e79b54c36f154e64bef6b093dd1" invocationEvent:BTGInvocationEventBubble];
+    [Bugtags setUserData:@"bugtags" forKey:@"name"];
+    [Bugtags setUserData:@"bugtags.com" forKey:@"corp"];
+    
+    NSLog(@"这是一个控制台输出测试");
+    BTGLog(@"这是一个 Bugtags Log 测试");
+    
     return YES;
 }
 
