@@ -65,7 +65,7 @@
  * @param invocationEvent - 呼出方式
  * @return none
  */
-+ (void)startWithAppKey:(NSString *)appKey invocationEvent:(BTGInvocationEventEvent)invocationEvent;
++ (void)startWithAppKey:(NSString *)appKey invocationEvent:(BTGInvocationEvent)invocationEvent;
 
 /**
  * 初始化Bugtags
@@ -74,14 +74,14 @@
  * @param options - 启动选项
  * @return none
  */
-+ (void)startWithAppKey:(NSString *)appKey invocationEvent:(BTGInvocationEventEvent)invocationEvent options:(BugtagsOptions *)options;
++ (void)startWithAppKey:(NSString *)appKey invocationEvent:(BTGInvocationEvent)invocationEvent options:(BugtagsOptions *)options;
 
 /**
  * 设置Bugtags呼出方式
  * @param invocationEvent - 呼出方式
  * @return none
  */
-+ (void)setInvocationEvent:(BTGInvocationEventEvent)invocationEvent;
++ (void)setInvocationEvent:(BTGInvocationEvent)invocationEvent;
 
 /**
  * Bugtags日志工具，添加自定义日志，不会在控制台输出
