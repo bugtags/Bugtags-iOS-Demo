@@ -27,6 +27,10 @@
     [Bugtags startWithAppKey:@"195e2e79b54c36f154e64bef6b093dd1" invocationEvent:BTGInvocationEventBubble];
     [Bugtags setUserData:@"bugtags" forKey:@"name"];
     [Bugtags setUserData:@"bugtags.com" forKey:@"corp"];
+    [Bugtags setBeforeSendingCallback:^{
+        
+        [Bugtags setUserData:@"这是一个问题提交之前的回调 sample" forKey:@"flag"];
+    }];
     
     NSLog(@"这是一个控制台输出测试");
     BTGLog(@"这是一个 Bugtags Log 测试");
