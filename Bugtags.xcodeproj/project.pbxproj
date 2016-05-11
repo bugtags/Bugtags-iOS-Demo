@@ -214,7 +214,6 @@
 				TargetAttributes = {
 					3BF55D4B1B678C9F006490EE = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = B2J49JGL6R;
 					};
 					3BF55D641B678C9F006490EE = {
 						CreatedOnToolsVersion = 6.4;
@@ -418,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				FRAMEWORK_SEARCH_PATHS = (
