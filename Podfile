@@ -1,3 +1,5 @@
 platform :ios, '6.0'
 
-pod 'Bugtags'
+target 'Bugtags' do
+    pod 'Bugtags'
+end

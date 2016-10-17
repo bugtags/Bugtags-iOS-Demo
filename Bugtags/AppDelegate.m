@@ -30,6 +30,11 @@
         [Bugtags setUserData:@"这是一个问题提交之前的回调 sample" forKey:@"flag"];
     }];
     
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        NSLog(@"### %@", [[Bugtags remoteConfig] stringForKey:@"feature_1"]);
+    });
+    
     return YES;
 }
 
