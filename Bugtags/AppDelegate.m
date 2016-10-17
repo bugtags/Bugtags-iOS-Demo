@@ -35,6 +35,11 @@
     NSLog(@"这是一个控制台输出测试");
     BTGLog(@"这是一个 Bugtags Log 测试");
     
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        NSLog(@"### %@", [[Bugtags remoteConfig] stringForKey:@"feature_1"]);
+    });
+    
     return YES;
 }
 
