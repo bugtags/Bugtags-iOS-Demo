@@ -24,7 +24,12 @@
     navigationBar.tintColor = [UIColor whiteColor];
     navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     
-    [Bugtags startWithAppKey:@"195e2e79b54c36f154e64bef6b093dd1" invocationEvent:BTGInvocationEventBubble];
+    
+    BugtagsOptions *options = [[BugtagsOptions alloc] init];
+    options.hotfixDataMode = BTGDataModeProduction;
+    options.remoteConfigDataMode = BTGDataModeProduction;
+    [Bugtags startWithAppKey:@"195e2e79b54c36f154e64bef6b093dd1" invocationEvent:BTGInvocationEventBubble options:options];
+    
     [Bugtags setUserData:@"bugtags" forKey:@"name"];
     [Bugtags setUserData:@"bugtags.com" forKey:@"corp"];
     [Bugtags setBeforeSendingCallback:^{
