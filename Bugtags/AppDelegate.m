@@ -24,7 +24,6 @@
     navigationBar.tintColor = [UIColor whiteColor];
     navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     
-    
     BugtagsOptions *options = [[BugtagsOptions alloc] init];
     options.hotfixDataMode = BTGDataModeProduction;
     options.remoteConfigDataMode = BTGDataModeProduction;
