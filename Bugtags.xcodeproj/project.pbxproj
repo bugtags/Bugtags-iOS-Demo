@@ -18,6 +18,7 @@
 		3B0E26C01B68FB9F00508813 /* IntegrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0E26BF1B68FB9F00508813 /* IntegrationViewController.m */; };
 		3B3F32091B6B48A4008253EF /* Bugtags.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F32071B6B48A4008253EF /* Bugtags.bundle */; };
 		3B3F320A1B6B48A4008253EF /* Bugtags.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3F32081B6B48A4008253EF /* Bugtags.framework */; };
+		3B4CC9471DF729D300CCBF5D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CC9461DF729D300CCBF5D /* libc++.tbd */; };
 		3BF55D521B678C9F006490EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF55D511B678C9F006490EE /* main.m */; };
 		3BF55D551B678C9F006490EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF55D541B678C9F006490EE /* AppDelegate.m */; };
 		3BF55D581B678C9F006490EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF55D571B678C9F006490EE /* ViewController.m */; };
@@ -52,6 +53,7 @@
 		3B0E26BF1B68FB9F00508813 /* IntegrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationViewController.m; sourceTree = "<group>"; };
 		3B3F32071B6B48A4008253EF /* Bugtags.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bugtags.bundle; sourceTree = "<group>"; };
 		3B3F32081B6B48A4008253EF /* Bugtags.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugtags.framework; sourceTree = "<group>"; };
+		3B4CC9461DF729D300CCBF5D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3BF55D4C1B678C9F006490EE /* Bugtags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bugtags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF55D501B678C9F006490EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF55D511B678C9F006490EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4CC9471DF729D300CCBF5D /* libc++.tbd in Frameworks */,
 				3B0E26B71B68EAEB00508813 /* CoreLocation.framework in Frameworks */,
 				3B0E26B51B68EAD700508813 /* AVFoundation.framework in Frameworks */,
 				3B0E26B31B68EACC00508813 /* CFNetwork.framework in Frameworks */,
@@ -92,12 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4CC9451DF729D200CCBF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4CC9461DF729D300CCBF5D /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BF55D431B678C9F006490EE = {
 			isa = PBXGroup;
 			children = (
 				3BF55D4E1B678C9F006490EE /* Bugtags */,
 				3BF55D681B678C9F006490EE /* BugtagsTests */,
 				3BF55D4D1B678C9F006490EE /* Products */,
+				3B4CC9451DF729D200CCBF5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
