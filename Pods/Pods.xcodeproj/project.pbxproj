@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B23D6824D9891807D296818720B3F5E /* Pods-Bugtags-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F429FEB30BC5DD79C44D2EAE0C791 /* Pods-Bugtags-dummy.m */; };
-		D84448ED3F8BE66E3795ACFBEEF41EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1248926BD0A64EA84B2AFF93E808C08F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7B9E9687076C68874A4281F335DAA105 /* Pods-Bugtags-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F429FEB30BC5DD79C44D2EAE0C791 /* Pods-Bugtags-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,8 +17,8 @@
 		3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bugtags.release.xcconfig"; sourceTree = "<group>"; };
 		66576D1EB268C013304329894EA046F2 /* Pods-Bugtags-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bugtags-resources.sh"; sourceTree = "<group>"; };
 		680B1BA2CE4ACBFD70F39724E735174E /* Bugtags.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Bugtags.bundle; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A76A432F5A08125337CE177C43A66C7F /* libPods-Bugtags.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bugtags.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A76A432F5A08125337CE177C43A66C7F /* libPods-Bugtags.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Bugtags.a"; path = "libPods-Bugtags.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82604A812C1F3198EC4D8C2F3524867 /* Pods-Bugtags.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bugtags.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7E822534FC231470A8D432210ECCA51 /* Bugtags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bugtags.h; path = Bugtags.framework/Versions/A/Headers/Bugtags.h; sourceTree = "<group>"; };
@@ -28,11 +28,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8DF241DEAEFF48EA299E7952F3EC14EA /* Frameworks */ = {
+		58C3B2024912B05A60FC9C93919824E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84448ED3F8BE66E3795ACFBEEF41EFD /* Foundation.framework in Frameworks */,
+				1248926BD0A64EA84B2AFF93E808C08F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +52,7 @@
 			children = (
 				97C61C1773858D28AF02D8FB83353ADA /* Core */,
 			);
+			name = Bugtags;
 			path = Bugtags;
 			sourceTree = "<group>";
 		};
@@ -134,12 +135,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA582669E699BC2BEF1E4CAEC82D16B5 /* Pods-Bugtags */ = {
+		1D65D5DE6DBA70AFFDAC340DDC45F3A5 /* Pods-Bugtags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B93AA17144010AAD3E84667461D10C89 /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */;
+			buildConfigurationList = 4B089BD6D085330EAE2A1BD6F3A5BC3A /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */;
 			buildPhases = (
-				E9A2E986C3695DCE6EA5995902EB2002 /* Sources */,
-				8DF241DEAEFF48EA299E7952F3EC14EA /* Frameworks */,
+				D9C974BE9EBE425EF45FE284D41E6793 /* Sources */,
+				58C3B2024912B05A60FC9C93919824E6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,47 +172,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA582669E699BC2BEF1E4CAEC82D16B5 /* Pods-Bugtags */,
+				1D65D5DE6DBA70AFFDAC340DDC45F3A5 /* Pods-Bugtags */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9A2E986C3695DCE6EA5995902EB2002 /* Sources */ = {
+		D9C974BE9EBE425EF45FE284D41E6793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B23D6824D9891807D296818720B3F5E /* Pods-Bugtags-dummy.m in Sources */,
+				7B9E9687076C68874A4281F335DAA105 /* Pods-Bugtags-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8CE2DF1E9A2BE5746BF0C09EEDD27F09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B569ECED6DF5EC7ABDDF8C8957E26574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -252,7 +229,31 @@
 			};
 			name = Release;
 		};
-		BBEFE901C0E515580102A288EC44C3F6 /* Debug */ = {
+		D394853F2F467E37469A182723736ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E41275E0268A2FCF1F6C65B7F8D555E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C82604A812C1F3198EC4D8C2F3524867 /* Pods-Bugtags.debug.xcconfig */;
 			buildSettings = {
@@ -332,11 +333,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B93AA17144010AAD3E84667461D10C89 /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */ = {
+		4B089BD6D085330EAE2A1BD6F3A5BC3A /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBEFE901C0E515580102A288EC44C3F6 /* Debug */,
-				8CE2DF1E9A2BE5746BF0C09EEDD27F09 /* Release */,
+				E41275E0268A2FCF1F6C65B7F8D555E9 /* Debug */,
+				D394853F2F467E37469A182723736ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
