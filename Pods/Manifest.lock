@@ -1,13 +1,13 @@
 PODS:
-  - Bugtags (2.4.1):
-    - Bugtags/Core (= 2.4.1)
-  - Bugtags/Core (2.4.1)
+  - Bugtags (2.4.2):
+    - Bugtags/Core (= 2.4.2)
+  - Bugtags/Core (2.4.2)
 
 DEPENDENCIES:
   - Bugtags
 
 SPEC CHECKSUMS:
-  Bugtags: 3cf86a0d831ac6df515c751462372f572bc67fb3
+  Bugtags: 03318eafb02ec71e6c65c48c3a2b0ef34ed45eee
 
 PODFILE CHECKSUM: 30ab3c66a5b4b333a616be4cbbb1eb45b9eb720c
 
