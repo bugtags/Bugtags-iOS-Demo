@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1D65D5DE6DBA70AFFDAC340DDC45F3A5'
-               BlueprintName = 'Pods-Bugtags'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-Bugtags.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D65D5DE6DBA70AFFDAC340DDC45F3A5"
+               BlueprintName = "Pods-Bugtags"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-Bugtags.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
