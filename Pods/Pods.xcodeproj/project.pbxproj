@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B9E9687076C68874A4281F335DAA105 /* Pods-Bugtags-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F429FEB30BC5DD79C44D2EAE0C791 /* Pods-Bugtags-dummy.m */; };
-		9940938A3BAE1ECD7859C29467274A5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D977FD949E5E79841C8E22121178638 /* Pods-Bugtags-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F429FEB30BC5DD79C44D2EAE0C791 /* Pods-Bugtags-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28C64207368E64AC0203A0DBFE8EB258 /* Pods-Bugtags-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bugtags-acknowledgements.plist"; sourceTree = "<group>"; };
 		2A3F429FEB30BC5DD79C44D2EAE0C791 /* Pods-Bugtags-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bugtags-dummy.m"; sourceTree = "<group>"; };
 		3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bugtags.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66576D1EB268C013304329894EA046F2 /* Pods-Bugtags-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bugtags-resources.sh"; sourceTree = "<group>"; };
 		680B1BA2CE4ACBFD70F39724E735174E /* Bugtags.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Bugtags.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -28,17 +26,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58C3B2024912B05A60FC9C93919824E6 /* Frameworks */ = {
+		E03475731F7B44D37B30A690939BFD3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9940938A3BAE1ECD7859C29467274A5D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18C17075AFC7C7CF44E6D92E2D21C7E3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				4F69614C35EE6253D435A96B6BBD3F15 /* Pods */,
 				C514EEA82060EB6D426CACC4F2582DD5 /* Products */,
 				AA620817E138912255A7C7107096EFE8 /* Targets Support Files */,
@@ -108,14 +112,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C514EEA82060EB6D426CACC4F2582DD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,23 +120,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D65D5DE6DBA70AFFDAC340DDC45F3A5 /* Pods-Bugtags */ = {
+		D1CA968E54B05E6597FC1F805DBA8FAD /* Pods-Bugtags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B089BD6D085330EAE2A1BD6F3A5BC3A /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */;
+			buildConfigurationList = 3B0088E85072C105351F739EA23EE1C9 /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */;
 			buildPhases = (
-				D9C974BE9EBE425EF45FE284D41E6793 /* Sources */,
-				58C3B2024912B05A60FC9C93919824E6 /* Frameworks */,
+				0A5041B25EE771132D52CF92B112CD0F /* Sources */,
+				E03475731F7B44D37B30A690939BFD3D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,23 +160,45 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D65D5DE6DBA70AFFDAC340DDC45F3A5 /* Pods-Bugtags */,
+				D1CA968E54B05E6597FC1F805DBA8FAD /* Pods-Bugtags */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D9C974BE9EBE425EF45FE284D41E6793 /* Sources */ = {
+		0A5041B25EE771132D52CF92B112CD0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9E9687076C68874A4281F335DAA105 /* Pods-Bugtags-dummy.m in Sources */,
+				6D977FD949E5E79841C8E22121178638 /* Pods-Bugtags-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0E7698374C90E89C0213E875F6E6EBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		0F1AF314AAE69DEE4284B7D24F00661E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -247,7 +257,7 @@
 			};
 			name = Release;
 		};
-		31E88D1846E4225236F2C5F6652414A7 /* Debug */ = {
+		47F2D4065CA86A08737B76F796FB8282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C82604A812C1F3198EC4D8C2F3524867 /* Pods-Bugtags.debug.xcconfig */;
 			buildSettings = {
@@ -331,28 +341,6 @@
 			};
 			name = Debug;
 		};
-		C4E11AD607397A1230222C125A8C1B6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3448DF29245266F508813DF06B0A76BE /* Pods-Bugtags.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,11 +353,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B089BD6D085330EAE2A1BD6F3A5BC3A /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */ = {
+		3B0088E85072C105351F739EA23EE1C9 /* Build configuration list for PBXNativeTarget "Pods-Bugtags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31E88D1846E4225236F2C5F6652414A7 /* Debug */,
-				C4E11AD607397A1230222C125A8C1B6B /* Release */,
+				47F2D4065CA86A08737B76F796FB8282 /* Debug */,
+				0E7698374C90E89C0213E875F6E6EBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

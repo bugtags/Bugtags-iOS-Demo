@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Bugtags
 
-        Copyright (C) 2018 Bugtags.
+        Copyright (C) 2019 Bugtags.
         Permission is hereby granted to use this framework as is, modification are not allowed.
         All rights reserved.
 
